@@ -288,8 +288,7 @@ To take a snapshot without an {slm-init} policy, use the
 
 [source,console]
 ----
-# PUT _snapshot/my_repository/<my_snapshot_{now/d}>
-PUT _snapshot/my_repository/%3Cmy_snapshot_%7Bnow%2Fd%7D%3E
+PUT _snapshot/my_repository/<my_snapshot_{now/d}>
 ----
 // TEST[s/3E/3E?wait_for_completion=true/]
 
